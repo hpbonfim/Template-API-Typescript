@@ -1,0 +1,25 @@
+{
+  "name": "arquitetura",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc ./backend/index",
+    "start": "node index.js"
+  },
+  "author": "Henrique",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-jest": "^26.0.1"
+  }
+}
